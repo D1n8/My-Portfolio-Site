@@ -1,0 +1,18 @@
+@import './css/header.css';
+@import './css/about.css';
+@import './css/footer.css';
+
+body{
+    background-color: #00061c;
+    font-family: 'Ubuntu', sans-serif;
+    color: white
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav{
+    list-style: none;
+}

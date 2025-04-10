@@ -1,0 +1,12 @@
+.footer{
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+
+    &__links{
+        display: flex;
+        gap: 25px;
+    }
+
+}
