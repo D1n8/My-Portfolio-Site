@@ -1,4 +1,4 @@
-function Footer() {
+export default function Footer() {
     return (
     <footer className="footer">
         <p className="footer__text">Каримов Диньяр</p>
@@ -9,5 +9,3 @@ function Footer() {
         </div>
     </footer>)
 }
-
-export default Footer

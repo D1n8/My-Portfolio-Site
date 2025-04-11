@@ -1,5 +1,5 @@
 
-function About() {
+export default function About() {
     return (
     <section className="about" id="about">
         <p className="about__text">Привет! Меня зовут Каримов Диньяр и я выполняю верстку и разработку сайтов с нуля. 
@@ -20,5 +20,3 @@ function About() {
         <p className="about__text">Обучаюсь на 2 курсе ИРИТ-РТФ (УрФУ) по направлению "Программная инженерия"</p>
     </section>)
 }
-
-export default About
