@@ -5,8 +5,8 @@ export default function Header() {
          <nav>
             <ul className="nav header__nav">
                 <li className="nav__item"><a href="#about">Обо мне</a></li>
-                <li className="nav__item"><a href="">Проекты</a></li>
-                <li className="nav__item"><a href="">Контакты</a></li>
+                <li className="nav__item"><a href="#projects">Проекты</a></li>
+                <li className="nav__item"><a href="#contacts">Контакты</a></li>
             </ul>
          </nav>
     </header>

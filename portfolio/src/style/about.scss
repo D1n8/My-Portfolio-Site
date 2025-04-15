@@ -1,6 +1,40 @@
 .about{
     margin-bottom: 25px;
-    .img{
+    border-bottom: 1px solid white;
+
+    figure {
+        flex-shrink: 0;
+        width: 100px;
+        height: 100px; 
+        overflow: hidden; 
+        border-radius: 100%;
+       }
+       figure img { 
+        width: 180%;
+        margin: -55% -33%;
+       }
+
+    .icon{
         width: 50px;
+    }
+
+    &__me {
+        display: flex;
+        gap: 25px; 
+    }
+    
+
+    &__subtitle{
+        text-align: center;
+        font-size: 22px;
+    }
+
+    &__text{
+        margin-bottom: 25px;
+
+        &_me{
+
+            font-size: 20px;
+        }
     }
 }

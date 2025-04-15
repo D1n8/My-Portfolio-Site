@@ -1,6 +1,32 @@
 .about {
   margin-bottom: 25px;
+  border-bottom: 1px solid white;
 }
-.about .img {
+.about figure {
+  flex-shrink: 0;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.about figure img {
+  width: 180%;
+  margin: -55% -33%;
+}
+.about .icon {
   width: 50px;
+}
+.about__me {
+  display: flex;
+  gap: 25px;
+}
+.about__subtitle {
+  text-align: center;
+  font-size: 22px;
+}
+.about__text {
+  margin-bottom: 25px;
+}
+.about__text_me {
+  font-size: 20px;
 }/*# sourceMappingURL=about.css.map */

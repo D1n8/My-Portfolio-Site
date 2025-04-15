@@ -1,8 +1,9 @@
 .projects{
     margin-bottom: 25px;
+    border-bottom: 1px solid white;
     
     &__container{
-        margin: 0 25px;
+        margin: 0 25px 25px 25px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
@@ -36,7 +37,7 @@
         }
 
         .descr{
-            margin: 0 10px;
+            margin: 0 30px;
         }
     }
 

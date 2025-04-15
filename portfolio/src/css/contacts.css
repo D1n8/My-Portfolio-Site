@@ -1,1 +1,5 @@
-/*# sourceMappingURL=contacts.css.map */
+.contacts__list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}/*# sourceMappingURL=contacts.css.map */

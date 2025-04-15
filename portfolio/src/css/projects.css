@@ -1,8 +1,9 @@
 .projects {
   margin-bottom: 25px;
+  border-bottom: 1px solid white;
 }
 .projects__container {
-  margin: 0 25px;
+  margin: 0 25px 25px 25px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -34,7 +35,7 @@
   transition: top 1s ease-in-out;
 }
 .projects__elem .descr {
-  margin: 0 10px;
+  margin: 0 30px;
 }
 .projects__elem:focus .textbox {
   top: 0;

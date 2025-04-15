@@ -1,7 +1,7 @@
 import './App.css'
 import About from './components/about'
 import Contacts from './components/contacts'
-import Footer from './components/footer'
+// import Footer from './components/footer'
 import Header from './components/header'
 import Projects from './components/projects'
 
@@ -15,7 +15,7 @@ function App() {
         <Projects/>
         <Contacts/>
       </div>
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

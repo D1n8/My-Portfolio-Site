@@ -5,7 +5,7 @@
 @import './css/contacts.css';
 
 body{
-    background-color: #333;
+    background-color: #0f0f0f;
     font-family: 'Ubuntu', sans-serif;
     color: white
 }
@@ -21,4 +21,10 @@ body{
 
 .nav{
     list-style: none;
+}
+
+.title{
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 30px;
 }
