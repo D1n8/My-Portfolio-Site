@@ -24,6 +24,6 @@ export default function About() {
                 <img src="../../public/icons/React.png" alt="" className="icon" />
             </div>
             <h3 className="about__subtitle">Образование</h3>
-            <p className="about__text">Обучаюсь на 2 курсе ИРИТ-РТФ (УрФУ) по направлению "Программная инженерия"</p>
+            <p className="about__text about__text_education">Обучаюсь на 2 курсе ИРИТ-РТФ (УрФУ) по направлению "Программная инженерия"</p>
         </section>)
 }

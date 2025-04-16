@@ -1,7 +1,7 @@
 export default function Contacts() {
     return (
         <section className="contacts" id="contacts">
-            <h2 className="contacts__title title">Контакты</h2>
+            <h2 className="contacts__title title"><span>Контакты</span></h2>
             <div className="contacts__list">
                 <a href="https://vk.com/8happ1ness" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0,0,256,256">

@@ -1,6 +1,5 @@
 .about{
     margin-bottom: 25px;
-    border-bottom: 1px solid white;
 
     figure {
         flex-shrink: 0;
@@ -25,6 +24,7 @@
     
 
     &__subtitle{
+        margin-bottom: 20px;
         text-align: center;
         font-size: 22px;
     }
@@ -35,6 +35,11 @@
         &_me{
 
             font-size: 20px;
+        }
+
+        &_education{
+            font-size: 24px;
+            text-align: center;
         }
     }
 }
