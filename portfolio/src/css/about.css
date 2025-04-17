@@ -15,21 +15,28 @@
 }
 .about__me {
   display: flex;
-  gap: 25px;
+  position: relative;
+  margin-bottom: 25px;
+  gap: 50px;
 }
 .about__subtitle {
   margin-bottom: 20px;
   text-align: center;
-  font-size: 22px;
-}
-.about__text {
-  margin-bottom: 25px;
+  font-size: 28px;
 }
 .about__text_me {
   font-size: 20px;
 }
+.about__text_me::before {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 100%;
+  left: 122px;
+  background-color: rgb(255, 200, 50);
+}
 .about__text_education {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
 }
 .about__list {
@@ -38,9 +45,19 @@
   position: absolute;
 }
 .about__list li {
-  margin-bottom: 10px;
   font-size: 20px;
   font-weight: 500;
+}
+.about__list li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.about__list::before {
+  content: "";
+  position: absolute;
+  left: -50%;
+  width: 5px;
+  height: 100%;
+  background-color: rgb(255, 200, 50);
 }
 .about__knowledge {
   margin-bottom: 25px;
