@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .about {
   margin-bottom: 25px;
 }
@@ -11,9 +12,6 @@
 .about figure img {
   width: 180%;
   margin: -55% -33%;
-}
-.about .icon {
-  width: 50px;
 }
 .about__me {
   display: flex;
@@ -33,4 +31,62 @@
 .about__text_education {
   font-size: 24px;
   text-align: center;
+}
+.about__list {
+  top: 20%;
+  left: 10%;
+  position: absolute;
+}
+.about__list li {
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.about__knowledge {
+  margin-bottom: 25px;
+  /* Вращение всей орбиты */
+}
+.about__knowledge .container {
+  position: relative;
+}
+.about__knowledge .carousel {
+  position: relative;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+.about__knowledge .center-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 100px;
+  height: 100px;
+}
+.about__knowledge .orbit {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  animation: rotate 30s linear infinite;
+}
+.about__knowledge .icon-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.about__knowledge .icon {
+  position: absolute;
+  width: 50px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=about.css.map */
