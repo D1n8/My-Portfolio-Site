@@ -1,6 +1,5 @@
 .about {
-    margin-bottom: 25px;
-
+    scroll-margin-top: 70px;
     figure {
         flex-shrink: 0;
         width: 100px;
@@ -51,7 +50,6 @@
     }
 
     &__list{
-        top: 20%;
         left: 10%;
         position: absolute;
 

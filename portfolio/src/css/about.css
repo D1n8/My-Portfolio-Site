@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .about {
-  margin-bottom: 25px;
+  scroll-margin-top: 70px;
 }
 .about figure {
   flex-shrink: 0;
@@ -40,7 +40,6 @@
   text-align: center;
 }
 .about__list {
-  top: 20%;
   left: 10%;
   position: absolute;
 }
