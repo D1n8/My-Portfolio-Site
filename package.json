@@ -3,10 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://D1n8.github.io/My-Portfolio-Site/portfolio",
+  "homepage": "https://d1n8.github.io/My-Portfolio-Site",
   "scripts": {
     "dev": "vite --host",
-    "build": "vite build",
+    "build": "tsc -b && vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",

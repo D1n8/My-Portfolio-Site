@@ -1,10 +1,18 @@
+import me from "../../public/img/me.png"
+import html from "/icons/html.png"
+import css from "/icons/css.png"
+import sass from "/icons/sass.png"
+import _js from "/icons/js.png"
+import _ts from "/icons/Typescript.png"
+import _react from "/icons/react.png"
+ 
 export default function About() {
     return (
         <section className="about" id="about">
 
             <div className="about__me">
                 <figure>
-                    <img src="../../public/img/me.png" alt="me" className="img__me" />
+                    <img src={me} alt="me" className="img__me" />
                 </figure>
 
                 <p className="about__text about__text_me">Привет! Меня зовут Каримов Диньяр и я выполняю верстку и разработку сайтов с нуля.
@@ -30,22 +38,22 @@ export default function About() {
                         </div>
                         <div className="orbit" style={{ transform: 'rotate(0deg)' }}>
                             <div className="icon-container" style={{ transform: 'rotate(0deg)' }}>
-                                <img src="/icons/html.png" alt="HTML" className="icon" />
+                                <img src={html} alt="HTML" className="icon" />
                             </div>
                             <div className="icon-container" style={{ transform: 'rotate(60deg)' }}>
-                                <img src="/icons/css.png" alt="CSS" className="icon" />
+                                <img src={css} alt="CSS" className="icon" />
                             </div>
                             <div className="icon-container" style={{ transform: 'rotate(120deg)' }}>
-                                <img src="/icons/sass.png" alt="SASS" className="icon" />
+                                <img src={sass} alt="SASS" className="icon" />
                             </div>
                             <div className="icon-container" style={{ transform: 'rotate(180deg)' }}>
-                                <img src="/icons/js.png" alt="JavaScript" className="icon" />
+                                <img src={_js} alt="JavaScript" className="icon" />
                             </div>
                             <div className="icon-container" style={{ transform: 'rotate(240deg)' }}>
-                                <img src="/icons/Typescript.png" alt="TypeScript" className="icon" />
+                                <img src={_ts} alt="TypeScript" className="icon" />
                             </div>
                             <div className="icon-container" style={{ transform: 'rotate(300deg)' }}>
-                                <img src="/icons/react.png" alt="React" className="icon" />
+                                <img src={_react} alt="React" className="icon" />
                             </div>
                         </div>
                     </div>
